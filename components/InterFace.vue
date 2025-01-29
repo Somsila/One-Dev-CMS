@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref, onMounted } from 'vue';
 const visibleRight = ref(false);
 
 // model
@@ -23,17 +24,17 @@ interface FormData {
 const formData = ref<FormData>({
     interface: {
         title: '',
-        title_color: '#000000',
-        title_font: 'Poppins',
+        title_color: '',
+        title_font: '',
         description: '',
-        description_color: '#000000',
-        description_font: 'Poppins',
-        button_text: 'Submit',
-        button_font: 'Poppins',
-        button_color: '#ffffff',
-        button_background_color: '#007bff',
-        button_border_color: '#007bff',
-        button_border_radius: '5px',
+        description_color: '',
+        description_font: '',
+        button_text: '',
+        button_font: '',
+        button_color: '',
+        button_background_color: '',
+        button_border_color: '',
+        button_border_radius: '',
         img: '',
     }
 });
@@ -64,6 +65,9 @@ const handleUpdate = async () => {
     }
 
 }
+onMounted(() => {
+    fetchData();
+})
 
 </script>
 <template>
