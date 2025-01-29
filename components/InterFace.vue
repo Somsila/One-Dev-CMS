@@ -1,0 +1,44 @@
+<script>
+</script>
+<template>
+    <section
+    class="flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between w-full h-full px-6 sm:px-10 lg:px-28 sm:py-10 bg-gray-200 lg:py-0"
+  >
+    <div
+      class="flex-1 space-y-4 text-center lg:text-left lg:mx-10 animate__animated animate__slideInUp"
+    >
+      <h3
+        class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-green-600 leading-snug sm:leading-tight"
+      >
+        <b class="lg:text-7xl">UI & UX</b> <span class="block">Designer</span>
+      </h3>
+      <p
+        class="text-gray-900 max-w-md mx-auto lg:mx-0 text-sm sm:text-base lg:text-lg font-medium"
+      >
+        Crafting user-friendly and fascinating designs that guarantee effortless
+        navigation and accessibility across all devices.
+      </p>
+      <div class="flex flex-wrap justify-center lg:justify-start space-x-4 mt-4">
+        <!-- <button
+          class="bg-yellow-400 text-white px-6 py-2 rounded-lg shadow-md hover:bg-yellow-500"
+        >
+          Hire Me
+        </button> -->
+        <a href="/#services">
+          <button
+            class="border-2 border-green-500 text-green-500 px-6 py-2 rounded-lg shadow-md hover:bg-green-600 hover:text-white"
+          >
+            Get Start
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="flex-1 flex justify-center mt-6 sm:mt-8 lg:mt-0">
+      <div class="w-60 sm:w-72 lg:w-full h-auto">
+        <SvG />
+      </div>
+    </div>
+  </section>
+</template>
