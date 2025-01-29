@@ -12,6 +12,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/content": "^3.0.1",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@primevue/themes": "^4.2.5",
     "animate.css": "^4.1.1",
@@ -22,6 +23,7 @@
     "primeicons": "^7.0.0",
     "primevue": "^4.2.5",
     "tailwindcss-primeui": "^0.3.4",
+    "uuid": "^11.0.5",
     "vue": "latest",
     "vue-animate-onscroll": "^1.0.8",
     "vue-router": "latest"

@@ -5,7 +5,7 @@
 <template>
   <HeaderComponent />
   <!-- Section 1 -->
-  <InterFace/>
+  <InterFace />
 
   <!-- Services -->
   <ServiceView />
@@ -14,14 +14,14 @@
   <OurTeam />
 
   <!-- About us -->
-  <AboutUs/>
+  <AboutUs />
 
   <!-- My Project -->
   <MyProject />
 
   <!-- Contact -->
   <ContactUs />
-  
+
 </template>
 
 <style>
